@@ -1,0 +1,118 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5ba9f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+form {
+    background-color: #e76ee1;;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Heading Style */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Focused Input Field */
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+/* Radio Button & Checkbox Styling */
+label input[type="radio"],
+label input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Checkbox Section */
+div > label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for Error Messages */
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+/* Additional Styling for Select Option */
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Margin adjustments for Form Fields */
+div {
+    margin-bottom: 20px;
+}
+
+/* Remember Me Checkbox Styling */
+div > label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}

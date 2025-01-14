@@ -1,0 +1,56 @@
+<form>
+    <link rel="stylesheet" href="Auliaa slsa.css">
+  <div>
+    <label for="Nama Lengkap">Nama Lengkap </label>
+    <br/>
+    <input id="Nama Lengklap" name="Nama Lengkap" required />
+  </div>
+  
+  <div>
+    <label for= >Alamat </label>
+    <br/>
+    <input  name="Alamat" required />
+  </div>
+
+  <div>
+    <label for="Tempat lahir">Tempat Lahir</label>
+    <br/>
+    <input type="text" id="Tempat lahir" />
+  </div>
+
+  <div>
+    <label for="tanggal lahir">Tanggal lahir</label>
+    <br/>
+    <input type="date" id ="tanggal lahir" required />
+  </div>
+
+<div>
+    <label from="jenis kelamin">Jenis Kelamin</label>
+    <br/>
+    <label><input type="radio" name="gender" value="laki-laki"> Laki-laki</label><br>
+  <label><input type="radio" name="gender" value="perempuan"> Perempuan</label><br>
+</div>
+
+ <div>
+    Pilih Hobi:
+    <br/>
+    <label><input type="checkbox" name="hobi" value="membaca"> Membaca</label><br>
+  <label><input type="checkbox" name="hobi" value="traveling"> Traveling</label><br>
+  <label><input type="checkbox" name="hobi" value="olahraga"> Olahraga</label><br>
+ </div>
+
+ <div>
+    <form action="/submit-kelas" method="Kelas">
+        <label for="kelas">Pilih Kelas:</label>
+        <br/>
+        <select id="kelas" name="kelas">
+          <option value="kelasA">X PPLG 1</option>
+          <option value="kelasB">X PPLG 2</option>
+        </select>
+        <br />
+
+<form action="login.php" method="POST">
+    <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+ </div>
+  <button type="submit">Submit</button>
+</form>
